@@ -1,5 +1,14 @@
 using UnityEngine;
 using System;
+using System.Linq;
+using System.Collections.Generic;
+
+
+[Serializable]
+public class Row
+{
+    public bool[] Lines = new bool[5];
+}
 
 [CreateAssetMenu(fileName = "Spell", menuName = "Spell", order = 1)]
 [SerializeField]
@@ -10,5 +19,6 @@ public class SObjSpell : ScriptableObject
     public string spellName;
 
     [SerializeField]
-    public mouvement[] move;
+    public Row[] spell = new Row[5];
+
 }

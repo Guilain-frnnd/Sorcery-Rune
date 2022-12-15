@@ -9,17 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca22e0946fe4eb54ebfd5c210456fca3, type: 3}
-  m_Name: Boule de Feu
+  m_Script: {fileID: 11500000, guid: 04508038f4259d647851c4fa69bb4746, type: 3}
+  m_Name: HydroCanon
   m_EditorClassIdentifier: 
-  spellName: Boule de feu
-  move:
-  - move: 3
-  - move: 3
-  - move: 3
-  - move: 1
-  - move: 1
-  - move: 1
-  - move: 2
-  - move: 2
-  - move: 0
+  spellName: hydrocannon
+  spell:
+  - Lines: 0101010101
+  - Lines: 0100000001
+  - Lines: 0100010101
+  - Lines: 0100000001
+  - Lines: 0101010101
